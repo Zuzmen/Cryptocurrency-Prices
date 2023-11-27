@@ -1,0 +1,20 @@
+.crypto-container {
+  background: #FFFFFF;
+  padding-top: 50px;
+
+  .crypto-container-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 45px;
+
+    .crypto-container-title-info {
+      color: grey;
+
+      &--number {
+        color: green;
+        font-weight: 900;
+      }
+    }
+  }
+}

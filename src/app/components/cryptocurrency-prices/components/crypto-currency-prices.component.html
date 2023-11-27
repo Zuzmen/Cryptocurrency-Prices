@@ -1,0 +1,16 @@
+<div class="crypto-container">
+  <div class="crypto-container-title">
+    <h1>{{ mainTitle }}</h1>
+    <span class="crypto-container-title-info">The global crypto market cap is
+      <span class="crypto-container-title-info--number">&#9650;2.04%</span>
+        increase over the last day.
+          <a href="" target="_blank">Read more</a></span>
+  </div>
+  <div class="crypto-container-content">
+    <ag-grid-angular style="width: 100%; height: 800px; padding-left: 70px; padding-right: 70px;" class="ag-theme-alpine" [rowData]="rowData"
+       [columnDefs]="columnDefs" [suppressRowClickSelection]="true" (cellClicked)='onCellClicked($event)'>
+    </ag-grid-angular>
+  </div>
+</div>
+
+

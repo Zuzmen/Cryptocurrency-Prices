@@ -1,0 +1,24 @@
+<div class="top-nav-container">
+  <mat-toolbar class="top-nav-container-toolbar" color="primary">
+    <div class="top-nav-container-toolbar--bar">
+      <app-mail-logo></app-mail-logo>
+      <a mat-button routerLink="/"> Home </a>
+      <a mat-button routerLink="crypto-stock"> Cryptocurrencies </a>
+      <a mat-button> Exchanges </a>
+      <a mat-button> Community </a>
+      <a mat-button> Products </a>
+      <a mat-button> Learn </a>
+    </div>
+    <div class="top-nav-container-toolbar--buttons">
+      <button mat-stroked-button>Log in</button>
+      <button mat-stroked-button>Sign up</button>
+    </div>
+  </mat-toolbar>
+</div>
+
+<div class="content-container">
+  <div class="content-container--row">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+

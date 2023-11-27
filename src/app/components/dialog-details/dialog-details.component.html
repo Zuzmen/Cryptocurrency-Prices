@@ -1,0 +1,12 @@
+<h1 class="dialog-title" mat-dialog-title>Record details</h1>
+<div mat-dialog-content class="dialog-content">
+  <div>
+    {{'name: '}}<img class="crypto-cell-icon" [src]=iconUrl> {{data.name}}
+  </div>
+  <div>{{'symbol: ' + data.symbol}}</div>
+  <div>{{'total supply: ' + data.total_supply}}</div>
+  <div>{{'rank: ' + data.rank}}</div>
+</div>
+<div class="dialog-action" mat-dialog-actions>
+  <button (click)="closeDialog()" mat-stroked-button>Close</button>
+</div>
